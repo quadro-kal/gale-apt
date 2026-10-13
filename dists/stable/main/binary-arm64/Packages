@@ -1,0 +1,153 @@
+Package: adaptation-xiaomi-gale
+Version: 0.0.0+gitPLACEHOLDER
+Architecture: arm64
+Maintainer: QuadroKAL <hailkalfirmansyh12@gmail.com>
+Installed-Size: 9
+Depends: adaptation-hybris-api32-phone, adaptation-xiaomi-gale-configs (= 0.0.0+gitPLACEHOLDER), linux-image-xiaomi-gale, linux-bootimage-xiaomi-gale
+Filename: packages/adaptation-xiaomi-gale_0.0.0+gitPLACEHOLDER_arm64.deb
+Size: 2224
+MD5sum: d539fae633e122b67f636b935b4e3636
+SHA1: 45e956f604f5a7ea73def0b93b074646f0dc2e55
+SHA256: 000f387f465192edd4fefe99cd8ab2a316e3a1addcb53766558d70b875b38f01
+Section: metapackages
+Priority: optional
+Description: Community adaptation for xiaomi-gale - metapackage
+ Redmi 13C / POCO C65 (gale/gust, MT6768, Android 12 vendor, api32).
+
+Package: adaptation-xiaomi-gale-configs
+Source: adaptation-xiaomi-gale
+Version: 0.0.0+gitPLACEHOLDER
+Architecture: arm64
+Maintainer: QuadroKAL <hailkalfirmansyh12@gmail.com>
+Installed-Size: 35
+Filename: packages/adaptation-xiaomi-gale-configs_0.0.0+gitPLACEHOLDER_arm64.deb
+Size: 5168
+MD5sum: b64063a3d819bc0ef9d48d329a5f9895
+SHA1: cc0399d18c4fa8b8921a8540a3dc591de93a7980
+SHA256: 1d8706239c0db3ed8d63b595a27f8bab59f38ee932e331ffab69c7dbe95bb6ef
+Section: metapackages
+Priority: optional
+Description: Community adaptation for xiaomi-gale - adaptation configurations
+ Device-specific configs: udev rules, audio, bluetooth, flash settings.
+
+Package: linux-bootimage-4.19.325-xiaomi-gale
+Source: linux--xiaomi-gale
+Version: 0.0.0+git20261011101213.7d67c03.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 70828
+Pre-Depends: flash-bootimage (>= 4)
+Depends: linux-image-4.19.325-xiaomi-gale (= 0.0.0+git20261011101213.7d67c03.droidian)
+Filename: packages/linux-bootimage-4.19.325-xiaomi-gale_0.0.0+git20261011101213.7d67c03.droidian_arm64.deb
+Size: 71447036
+MD5sum: 840a24beb9fcdf8313e40412feeb5c6e
+SHA1: 1bc7f86432a0803abcb81c2434f9eb5711c3072d
+SHA256: 13219ba80cc58f41407bb1bf0ab60ff8944f204c97e87734a60f85fe905a70d6
+Section: kernel
+Priority: optional
+Description: Linux kernel for Redmi 13C / POCO C65 - Android Boot Image
+ This package contains the Linux kernel for the Redmi 13C / POCO C65 device.
+ .
+ Note: This package ships an Android Boot Image bundled with Halium's
+ initramfs.
+X-Droidian-Vcs-Revision: 7d67c030eac59d2693a48ceb73f27cf15512c70d
+X-Droidian-Vcs-Url: https://github.com/quadro-kal/moonbeam_gale_kernel.git
+
+Package: linux-bootimage-xiaomi-gale
+Source: linux--xiaomi-gale
+Version: 0.0.0+git20261011101213.7d67c03.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 7
+Depends: linux-bootimage-4.19.325-xiaomi-gale (= 0.0.0+git20261011101213.7d67c03.droidian)
+Filename: packages/linux-bootimage-xiaomi-gale_0.0.0+git20261011101213.7d67c03.droidian_arm64.deb
+Size: 1368
+MD5sum: fb709c8f644346acd417ba025a73a4ea
+SHA1: 4ea6123313612a90e4bc4cdcd1a7fc8f38aa5b45
+SHA256: 30ec3b490e37ae90177775be0148c86457911c9c790456cd555734ff2e2db303
+Section: kernel
+Priority: optional
+Description: Linux kernel for Redmi 13C / POCO C65 - Android Boot Image  (latest)
+ This package depends to the latest kernel bootimage available for the Redmi 13C / POCO C65.
+X-Droidian-Vcs-Revision: 7d67c030eac59d2693a48ceb73f27cf15512c70d
+X-Droidian-Vcs-Url: https://github.com/quadro-kal/moonbeam_gale_kernel.git
+
+Package: linux-headers-4.19.325-xiaomi-gale
+Source: linux--xiaomi-gale
+Version: 0.0.0+git20261011101213.7d67c03.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 87842
+Depends: linux-image-4.19.325-xiaomi-gale (= 0.0.0+git20261011101213.7d67c03.droidian)
+Filename: packages/linux-headers-4.19.325-xiaomi-gale_0.0.0+git20261011101213.7d67c03.droidian_arm64.deb
+Size: 10770204
+MD5sum: 74628fb5b7cbdeaa9c23284f750e881f
+SHA1: e36f4fc73e24eeaa559f77f4e552cf0311c37503
+SHA256: c55444a88653abab7b9e4594f93219dba28c4a58c05ec243e13b738389c61229
+Section: kernel
+Priority: optional
+Description: Linux kernel for Redmi 13C / POCO C65 - Headers
+ This package contains the Linux kernel headers for the Redmi 13C / POCO C65 device.
+X-Droidian-Vcs-Revision: 7d67c030eac59d2693a48ceb73f27cf15512c70d
+X-Droidian-Vcs-Url: https://github.com/quadro-kal/moonbeam_gale_kernel.git
+
+Package: linux-headers-xiaomi-gale
+Source: linux--xiaomi-gale
+Version: 0.0.0+git20261011101213.7d67c03.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 7
+Depends: linux-headers-4.19.325-xiaomi-gale (= 0.0.0+git20261011101213.7d67c03.droidian)
+Filename: packages/linux-headers-xiaomi-gale_0.0.0+git20261011101213.7d67c03.droidian_arm64.deb
+Size: 1352
+MD5sum: c2d25a3f25cbcb9919aecd007bc1cb8b
+SHA1: a706d4f01ba9390fdd5bcc1ba193c0120beba90b
+SHA256: 7951d92794382bf0fc26a68cb2bb00763b1de6238cb0a5facf486c5f97f3b213
+Section: kernel
+Priority: optional
+Description: Linux kernel for Redmi 13C / POCO C65 - Headers (latest)
+ This package depends to the latest kernel headers available for the Redmi 13C / POCO C65.
+X-Droidian-Vcs-Revision: 7d67c030eac59d2693a48ceb73f27cf15512c70d
+X-Droidian-Vcs-Url: https://github.com/quadro-kal/moonbeam_gale_kernel.git
+
+Package: linux-image-4.19.325-xiaomi-gale
+Source: linux--xiaomi-gale
+Version: 0.0.0+git20261011101213.7d67c03.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 25390
+Filename: packages/linux-image-4.19.325-xiaomi-gale_0.0.0+git20261011101213.7d67c03.droidian_arm64.deb
+Size: 19919460
+MD5sum: cff0b0e4e85b60efad03338e4e1c7845
+SHA1: 30dd9610ce0d2dedb1845824617ef5cc1bd6a558
+SHA256: 5c37b6bc929e5b275d49c13369e38bd7df137c63d8532789b051d911f9021163
+Section: kernel
+Priority: optional
+Description: Linux kernel for Redmi 13C / POCO C65
+ This package contains the Linux kernel for the Redmi 13C / POCO C65 device.
+ .
+ Note: This package only ships the kernel image and modules, you should probably
+ look at the linux-bootimage-4.19.325-xiaomi-gale package for a bootimage suitable
+ for Android boot loaders.
+X-Droidian-Vcs-Revision: 7d67c030eac59d2693a48ceb73f27cf15512c70d
+X-Droidian-Vcs-Url: https://github.com/quadro-kal/moonbeam_gale_kernel.git
+
+Package: linux-image-xiaomi-gale
+Source: linux--xiaomi-gale
+Version: 0.0.0+git20261011101213.7d67c03.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 7
+Depends: linux-image-4.19.325-xiaomi-gale (= 0.0.0+git20261011101213.7d67c03.droidian)
+Filename: packages/linux-image-xiaomi-gale_0.0.0+git20261011101213.7d67c03.droidian_arm64.deb
+Size: 1340
+MD5sum: ae95e2ad8f0f530b6684156e67262d58
+SHA1: d5f4f718873e0197b940363d0adf5bcba85a3344
+SHA256: 949edd381d6f80b91fb2de18c2b8d5f4a37bb6a40a0a08f112d21fd4ea5d6baa
+Section: kernel
+Priority: optional
+Description: Linux kernel for Redmi 13C / POCO C65 (latest)
+ This package depends to the latest kernel image available for the Redmi 13C / POCO C65.
+X-Droidian-Vcs-Revision: 7d67c030eac59d2693a48ceb73f27cf15512c70d
+X-Droidian-Vcs-Url: https://github.com/quadro-kal/moonbeam_gale_kernel.git
+

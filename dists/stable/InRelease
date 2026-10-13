@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: https://quadro-kal.github.io/gale-apt
+Label: Droidian PKG
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: arm64
+Components: main
+Description: Packages
+Date: Tue, 13 Oct 2026 07:40:54 +0000
+MD5Sum:
+ 7a27bdc645d7693907a5acdb5332d99d              208 Release
+ 4705b8dc7fb54f40e1d41c4dd9dd627a             6967 main/binary-arm64/Packages
+ ca8f2a58f10f5b7f09b0ca893817365c             1774 main/binary-arm64/Packages.gz
+SHA1:
+ 38aeb4a54b5db96fa368728b9f331b0801aaa22b              208 Release
+ 6e19776b33ea1421d7090bd6aa97c5f07692db13             6967 main/binary-arm64/Packages
+ aa4ac35d08d2f80b6b4969fe952ba0e4dd05e182             1774 main/binary-arm64/Packages.gz
+SHA256:
+ e1721d70ee5d893168cb51efa5a198526cec12cf42df0fa498fa2344ac0f768f              208 Release
+ 35eef92332f05f0478faa765645c026d25ee868a80fc3e4f49ebaf134a3920bb             6967 main/binary-arm64/Packages
+ 2f8e8f60d8f65f78eac2611f9b4087b470a244e4519d3beb945f92f19dd1606a             1774 main/binary-arm64/Packages.gz
+SHA512:
+ 71d281d9e67c8d45409394f774091f3f2253016a25d67dc5c71c8cfaaa4378899535f54e38b222f94e058425f8c1d01400c499774f41f78bfce78ea19327a3ba              208 Release
+ 2b0730d7eba8eb9be5e34811240aadc4494f0c842e05763fa6847f0488b1ce11b15446b0b58b3195782542d931f9053245db3f2ac316d74ab270bb917559cfac             6967 main/binary-arm64/Packages
+ cd3e61a63c05c3e69815226e8d5ce23bed1bf3c04b0b1b7ec8d3af2335d22c9f4b10b89301e20a73983f09a5baddf5573d6abfbc16eb241956a7114385ea14e8             1774 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEELwb0gOE22DuVQ71OoBjn4eEyJZ4FAmrN4IYACgkQoBjn4eEy
+JZ7+dw/+KOSYDCcmNUsEyEx70MhpyYdaBZn0eXQ88WrlAosTaXfVUWNKaCt4sLJD
+lFV9VO8StV8ziDHRzDq7mH4WtJIadUsS7CmVPZcbniVENYqLe45+5WdCEMbeEINY
+P5w529c6ScTiVUOGsBsxrSmvyD56xP+X6b0Hf5RjRwoWR0D4AafTewfXY+vybPc4
+LT8Dm2W5aQS5sVt6GTn44FwC/IIOTblCU//jrO50kOTAWfzMdB8dDhJa8mhIB042
+iVDVF/5tSAdWxUWphXR9O/eX0nh1wXD3L84EK4WEe9jODTPPwsbebxoho6wg7XVD
+DKJWtvJ3Y78swg7rnbcczUUJdCNeProNP/Knroon0bMlXgEQxJGWMbupPBcoFQvF
+OcUl8ZXSUdmLV9laJTsgSWgYlT4jMkaOTXmxvhszhTGrENRNiyCOSP+6uUvQ2iSm
+Pu0HcxVyI0owb/9qCBOKdqNUIZeTwR8yIITNcnBZXvOKlAXgVdICcX6itshNPV8e
+IStpkzDrAR+JjAQpKNdDGO+c6gqug6H87gfwaMwK9jOlSkn1aMcEGkmtmzQ1G6jQ
+ypgKxrtfsSPG51dIHbTaR6YaBkfF8BZ0V+j90+k/pL95vgCofsXHMNiI2tfQGN38
+I6jbkGwc5cRcxW0coB9qwfjCwXvgM7QmIjmTUAfHaBF9Nn+/F+U=
+=Qgz8
+-----END PGP SIGNATURE-----
